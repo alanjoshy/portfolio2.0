@@ -1,0 +1,14 @@
+.App {
+  min-height: 100vh;
+  background: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans", sans-serif;
+}
