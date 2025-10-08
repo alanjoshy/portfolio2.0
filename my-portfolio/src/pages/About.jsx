@@ -28,8 +28,8 @@ const About = () => {
                 </svg>
               </div>
               <h3 className="card-title">Experience</h3>
-              <p className="card-subtext">3+ years</p>
-              <p className="card-subtext">Freelancing</p>
+              <p className="card-subtext">1+ years</p>
+              <p className="card-subtext">back-end developer @codeteak</p>
             </div>
 
             <div className="experience-card">
@@ -39,16 +39,38 @@ const About = () => {
                 </svg>
               </div>
               <h3 className="card-title">Experience</h3>
-              <p className="card-subtext">3+ years</p>
-              <p className="card-subtext">Freelancing</p>
+              <p className="card-subtext">1.5+ years</p>
+              <p className="card-subtext">django developer @Tharakans group</p>
             </div>
           </div>
 
           {/* Description Paragraph */}
-          <div className="about-description">
-            <p>
-              <span className="text-blue">Entrepreneur & MERN Stack Developer:</span> Innovator at heart, I craft cutting-edge web solutions with <span className="text-blue">MongoDB, Express, React, and Node.js</span>. My entrepreneurial drive shapes the future of web tech, creating impactful user experiences.
-            </p>
+         <div className="about-description">
+  <p>
+    <span className="text-blue">Backend Developer & Tech Lead:</span> Architect of 
+    <span className="text-blue"> scalable, cloud-native systems</span> with 
+    <span className="text-blue"> FastAPI, Django, and PostgreSQL</span>. I specialize in 
+    <span className="text-blue"> microservices, real-time communication</span> using 
+    <span className="text-blue"> WebSockets and Redis</span>, and 
+    <span className="text-blue"> enterprise-grade APIs</span>. With hands-on expertise in 
+    <span className="text-blue"> AWS, CI/CD automation, and team leadership</span>, I transform 
+    complex business needs into 
+    <span className="text-blue"> high-performance, secure solutions</span>.
+  </p>
+</div>
+
+          {/* Resume Download Button */}
+          <div className="resume-download">
+            <a 
+              href="/assets/Resume.pdf" 
+              download="Alan_Joshy_Resume.pdf"
+              className="download-resume-btn"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style={{marginRight: '8px'}}>
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+              </svg>
+              Download Resume
+            </a>
           </div>
 
           {/* Down Arrow */}

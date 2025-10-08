@@ -61,6 +61,15 @@ const Header = () => {
           >
             <span className="dock-text">Contact</span>
           </button>
+          
+          <a 
+            href="/assets/Resume.pdf" 
+            download="Alan_Joshy_Resume.pdf"
+            className="dock-item"
+            title="Download Resume"
+          >
+            <span className="dock-text">Resume</span>
+          </a>
         </div>
       </div>
     </>
